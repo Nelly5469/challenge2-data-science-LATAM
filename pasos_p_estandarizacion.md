@@ -33,3 +33,35 @@ customer.SeniorCitizen		es_mayoroigual_65_anios
 account.Charges.Monthly		total_serv_mes
 account.Charges.Total 		total_gastado
 Cuentas_Diarias				total_serv_mes_x_dia
+
+RENOMBRE DE COLUMNAS TRANSFORMADAS
+Churn                                                 bool	CHURN
+customer.gender                                       bool	ES_HOMBRE
+customer.SeniorCitizen                                bool 	TIENE_PAREJA
+customer.Partner                                      bool	TIENE_PAREJA
+customer.Dependents                                   bool 	TIENE_DEPENDIENTES
+customer.tenure                                      int64	NUM_MESES_CONTRATO
+internet.OnlineSecurity                               bool	TIENE_SEGURIDAD_ENLINEA
+internet.OnlineBackup                                 bool 	TIENE_RESPALDO_ENLINEA
+internet.DeviceProtection                             bool	TIENE_PROTECCION_DISPOSITIVO
+internet.TechSupport                                  bool	TIENE_SOPORTE_TECNICO_MAYOR
+internet.StreamingTV                                  bool	TIENE_TV_CABLE
+internet.StreamingMovies                              bool	TIENE_STREAM_PELIS
+account.PaperlessBilling                              bool	ES_FACTURA_ENLINEA
+account.Charges.Monthly                            float64	TOTAL_SERV_MES_DOLARES
+account.Charges.Total                              float64	TOTAL_GASTADO_DOLARES
+Cuentas_Diarias                                    float64	TOTAL_SERV_MESXDIA_DOLARES
+account.Contract_MONTH-TO-MONTH                       bool	ES_CONTRATO_XMES
+account.Contract_ONE YEAR                             bool	ES_CONTRATO_XANIO
+account.Contract_TWO YEAR                             bool	ES_CONTRATO_X2ANIOS
+account.PaymentMethod_BANK TRANSFER (AUTOMATIC)       bool	ES_PAGO_TRANSF_BANCARIA
+account.PaymentMethod_CREDIT CARD (AUTOMATIC)         bool	ES_PAGO_TARJ_CRED
+account.PaymentMethod_ELECTRONIC CHECK                bool	ES_PAGO_ELECTRONICO
+account.PaymentMethod_MAILED CHECK                    bool	ES_PAGO_POR_CORREO
+es_pago_automatico                                    bool	ES_PAGO_AUTOMATICO
+phone__NO                                             bool	TIENE_1_LIN_TEL
+phone__YES                                            bool	TIENE_MASDE_1_LIN_TEL
+tiene_serv_internet                                   bool	TIENE_SERV_INTERNET
+
+cols eliminadas
+	phone__NO PHONE SERVICE                               bool	
