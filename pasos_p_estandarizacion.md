@@ -37,7 +37,7 @@ Cuentas_Diarias				total_serv_mes_x_dia
 RENOMBRE DE COLUMNAS TRANSFORMADAS
 Churn                                                 bool	CHURN
 customer.gender                                       bool	ES_HOMBRE
-customer.SeniorCitizen                                bool 	TIENE_PAREJA
+customer.SeniorCitizen                                bool 	ES_MAYOROIGUAL_65ANIOS
 customer.Partner                                      bool	TIENE_PAREJA
 customer.Dependents                                   bool 	TIENE_DEPENDIENTES
 customer.tenure                                      int64	NUM_MESES_CONTRATO
